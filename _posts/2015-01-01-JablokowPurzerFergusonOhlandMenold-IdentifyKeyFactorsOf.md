@@ -1,0 +1,10 @@
+---
+layout: pub
+type: conference
+title: Identifying Key Factors of Engineering Innovativeness
+authors: ["K. Jablokow", "S. Purzer", "D. Ferguson", "M. Ohland", "J. Menold"]
+venue: American Society of Engineering Education Annual Conference 
+year: 2015
+accepted: true
+---
+Identifying key factors of engineering innovativenessSignificant resources are spent nationally and locally to foster innovation, yet limited research exists onthe personal characteristics of innovators, especially those found in engineering. This three-yearcollaborative research project, currently in its second year, has led to the identification of specificattributes associated with engineering innovators, with the potential to inform a broad range of people,from engineering students to engineering educators to practicing engineers and their managers. Throughthis project, we have developed a socially constructed set of key engineering innovativenesscharacteristics based on the views of a diverse group of engineering innovation experts. We have alsodetermined which characteristics are more important in specific stages of the innovation process, andexamined the innovativeness factors that are innate/fixed (e.g., cognitive style) versus those that can bechanged/enhanced (e.g., knowledge, skills).Through a series of interviews and a Delphi study with engineering innovators from academia andindustry, we found the innovation process to have at least three distinct stages: (1) the front-end ordiscovery stage, (2) the middle or development stage, and (3) the back-end or implementation andadoption stage. For example, some of the key characteristics of engineering innovativeness that wereidentified with the discovery stage of the innovation process included: experimenter, alternatives seeker,curious, risk taker, and visionary. Future research steps will focus on testing and widely disseminating avalidated instrument that assesses the key engineering innovativeness characteristics, and using ourresearch results to inform the education of innovative engineers and the professional development ofengineering practitioners.

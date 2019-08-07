@@ -1,0 +1,10 @@
+---
+layout: pub
+type: conference
+title: Exploring the Impact of Cognitive Preferences on student receptivity to design thinking
+authors: ["J. Menold", "K. Jablokow", "E. Kisenwether", "S. Ritter"]
+venue: American Society of Engineering Education Annual Conference 
+year: 2015
+accepted: true
+---
+Design thinking is a popular design methodology that encourages iterative problem solving and fosters the creation of human-centered products. The design thinking method, born at the famous product development firm, IDEO, is intentionally loosely structured and fast paced, forcing designers to rapidly prototype and test potential solutions. With its less structured format, design thinking may be more appealing and more readily accepted and adopted by some individuals than others - as anecdotal evidence collected from design classrooms and design thinking workshops seems to indicate. The aim of this study is to determine whether student receptivity to design thinking might be linked to individual cognitive characteristics that reflect innate structural preferences. This research could help educators determine the most appropriate design methodology based on the cognitive preferences of their students, as well as the need to teach coping strategies when students are required to engage in design activities that do not align with their natural cognitive preferences. Our work presents the results of data gathered during a design thinking workshop in which students engaged in the design thinking process by working through a real world challenge. Student receptivity was evaluated using an ecological mood assessment,1 and cognitive characteristics were assessed using the KAI, which evaluates the cognitive styles of individuals2. A statistically significant relationship was observed between cognitive style and the happiness and excitement scores (two subscales of the ecological momentary mood assessment); we feel that with future experiments, even more correlations might be discovered.
