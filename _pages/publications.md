@@ -15,7 +15,6 @@ excerpt: ""
   {% for pub in site.posts %}
     {% if pub[include.variable] == include.value %}
       <li>
-        {% if pub.style %}<u>{{ pub.style }}:</u>{% endif %}
         {% include author_list.html object=pub bold=false %}
         ({{ pub.year }}).
         <a href="{{ pub.url | relative_url  }}">"{{ pub.title }}."</a>
