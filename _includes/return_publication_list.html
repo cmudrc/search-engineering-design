@@ -1,30 +1,14 @@
 <ol>
-  <!-- Print the unaccepted manuscripts -->
-  {% for pub in site.posts %}
-    {% if pub.accepted == false %}
-      {% if pub[include.variable] == include.value %}
-        <li>
-          {% if pub.style %}<u>{{ pub.style }}:</u>{% endif %}
-          {% include author_list.html object=pub bold=false %}
-          <a href="{{ pub.url | relative_url }}">"{{ pub.title }}."</a>
-          <i>Submitted to {{ pub.venue }}.</i>
-        </li>
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-
   <!-- Print the accepted manuscripts -->
   {% for pub in site.posts %}
-    {% if pub.accepted == true %}
-      {% if pub[include.variable] == include.value %}
-        <li>
-          {% if pub.style %}<u>{{ pub.style }}:</u>{% endif %}
-          {% include author_list.html object=pub bold=false %}
-          ({{ pub.year }}).
-          <a href="{{ pub.url | relative_url  }}">"{{ pub.title }}."</a>
-          <i>{{ pub.venue }}</i>{% if pub.volume %}, vol. {{ pub.volume }}{% endif %}{% if pub.issue %}({{ pub.issue }}){% endif %}{% if pub.pages %}, pp. {{ pub.pages }}{% endif %}.
-        </li>
-      {% endif %}
+    {% if pub[include.variable] == include.value %}
+      <li>
+        {% if pub.style %}<u>{{ pub.style }}:</u>{% endif %}
+        {% include author_list.html object=pub bold=false %}
+        ({{ pub.year }}).
+        <a href="{{ pub.url | relative_url  }}">"{{ pub.title }}."</a>
+        <i>{{ pub.venue }}</i>{% if pub.volume %}, vol. {{ pub.volume }}{% endif %}{% if pub.issue %}({{ pub.issue }}){% endif %}{% if pub.pages %}, pp. {{ pub.pages }}{% endif %}.
+      </li>
     {% endif %}
   {% endfor %}
 </ol>

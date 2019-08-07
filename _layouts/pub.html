@@ -17,15 +17,12 @@ layout: default
 
       <section class="page__content" itemprop="text">
         <p>{% include author_list.html object=page bold=false%}<br/>
-            {% if page.accepted == true %}{{page.year}}, {% endif %}<i>{% if page.accepted == false %}Submitted to {% endif %}{{page.venue}}</i>{% if page.volume %}, vol. {{ page.volume }}{% endif %}{% if page.issue %}({{ page.issue }}){% endif %}{% if page.pages %}, pp. {{ page.pages }}{% endif %} </p>
+            {% if page.accepted == true %}{{page.year}}, {% endif %}<i>{{page.venue}}</i>{% if page.volume %}, vol. {{ page.volume }}{% endif %}{% if page.issue %}({{ page.issue }}){% endif %}{% if page.pages %}, pp. {{ page.pages }}{% endif %} </p>
         {% if page.accepted %}
           <p>{{ content }}</p>
         {% endif %}
         {% if page.doi %}
           <p>doi: <a href="http://dx.doi.org/{{page.doi}}">{{page.doi}}</a></p>
-        {% endif %}
-        {% if page.engrxiv %}
-          <p>engrXiv: <a href="http://dx.doi.org/{{page.engrxiv}}">{{page.engrxiv}}</a></p>
         {% endif %}
 
       </section>
