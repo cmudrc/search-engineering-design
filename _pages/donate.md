@@ -1,7 +1,7 @@
 ---
-title: Contact
+title: Donate
 layout: splash
-permalink: /contact/
+permalink: /donate/
 
 header:
   overlay_color: "#000"
@@ -10,5 +10,4 @@ header:
 excerpt: ""
 
 ---
-
-Email Chris McComb by clicking [here](mailto:mccomb@psu.edu).
+This site is supported by the donations of people like you. This site will never advertise. 
