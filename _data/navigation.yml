@@ -4,7 +4,7 @@ main:
     url: /about/
   - title: "Publications"
     url: /publications/
-  - title: "Contact"
-    url: /contact/
+  - title: "Contribute"
+    url: /contribute/
   - title: "Donate"
     url: /donate/
