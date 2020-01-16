@@ -2,9 +2,9 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Publications"
-    url: /publications/
   - title: "Contribute"
     url: /contribute/
   - title: "Donate"
     url: /donate/
+  - title: "🔍"
+    url: /
