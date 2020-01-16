@@ -13,9 +13,6 @@ excerpt: ""
 # Contributing
 Want to help develop this website? Contribute on our [GItHub page](https://github.com/cmccomb/search-design-journals).
 
-# Mind the gap
-If we missed something, please help us out by [filling in some data](#google-survey).
-
 # Contact
 Email Chris McComb by clicking [here](mailto:mccomb@psu.edu).
 
