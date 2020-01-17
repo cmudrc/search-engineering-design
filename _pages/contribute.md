@@ -11,7 +11,7 @@ excerpt: ""
 
 ---
 # Contributing
-Want to help develop this website? Contribute on our [GItHub page](https://github.com/cmccomb/search-design-journals).
+Want to help develop this website? Contribute on our [GitHub page](https://github.com/cmccomb/search-design-journals).
 
 # Contact
 Email Chris McComb by clicking [here](mailto:mccomb@psu.edu).
