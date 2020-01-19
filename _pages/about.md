@@ -6,7 +6,8 @@ permalink: /about/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/looking_in.jpg
+  overlay_image: /assets/images/books.jpg
+  caption: "Photo by [Patrick Tomasso](https://unsplash.com/@impatrickt) on [Unsplash](https://unsplash.com/)"
 excerpt: ""
 
 ---
