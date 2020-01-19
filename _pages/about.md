@@ -11,7 +11,9 @@ header:
 excerpt: ""
 
 ---
-This is a way to search design journals. Currently, the following journals are included:
+This is provides a way to search engineering design journals using a Customer Search Engine through Google. It start off as, and still is, a side project by [Chris McComb](https://cmccomb.com). 
+
+Currently, the following journals are included:
 - [Design Studies](https://www.journals.elsevier.com/design-studies)
 - [Design Science](https://www.cambridge.org/core/journals/design-science)
 - [Research in Engineering Design](https://link.springer.com/journal/163)
