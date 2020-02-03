@@ -11,7 +11,7 @@ header:
 excerpt: ""
 
 ---
-This is provides a way to search engineering design journals using a Customer Search Engine through Google. It started off as, and still is, a side project by [Chris McComb](https://cmccomb.com). 
+This site provides a way to search popular engineering design journals using a Customer Search Engine through Google. It started off as, and still is, a side project by [Chris McComb](https://cmccomb.com). 
 
 Currently, the following journals are included:
 - [Design Studies](https://www.journals.elsevier.com/design-studies)
