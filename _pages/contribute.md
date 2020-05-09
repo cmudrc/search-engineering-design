@@ -94,6 +94,9 @@ Email Chris McComb by clicking [here](mailto:mccomb@psu.edu).
                 data: '{"title": "' + report + '", "body": "' + repro + '. Recommended by ' + email +'"}',
                 success: function (results) {
                     alert("This bug has been reported!");
+                        $("#email").val("");
+                        $("#report").val("");
+                        $("#repro").val("");
                 },
                 error: function (results) {
                     alert("Sorry, I ran into an issue: <code>" + JSON.stringify(results) + "</code>");
@@ -117,6 +120,9 @@ Email Chris McComb by clicking [here](mailto:mccomb@psu.edu).
                     data: '{"title": "' + where + '", "body": "' + why + '. Recommended by ' + email +'"}',
                     success: function (results) {
                         alert("This recommendation has been logged!");
+                        $("#email2").val("");
+                        $("#where").val("");
+                        $("#why").val("");
                     },
                     error: function (results) {
                         alert("Sorry, I ran into an issue: <code>" + JSON.stringify(results) + "</code>");
