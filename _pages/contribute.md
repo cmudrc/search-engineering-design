@@ -79,8 +79,7 @@ Email Chris McComb by clicking [here](mailto:mccomb@psu.edu).
         let email = clean_non_ascii($("#email").val());
         let report = clean_non_ascii($("#report").val());
 
-        if(clean) {
-            $.ajax({
+        $.ajax({
                 url: 'https://api.github.com/repos/thredgroup/search-engineering-design/issues',
                 headers: {'Authorization': 'token 2f5e2123640cb7b1b3ffc99d1263f66f77c7b521'},
                 type: "POST",
@@ -92,7 +91,6 @@ Email Chris McComb by clicking [here](mailto:mccomb@psu.edu).
                     alert("Sorry, I ran into an issue" + results);
                 }
             });
-        }
 
     }
 
