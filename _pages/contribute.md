@@ -66,7 +66,7 @@ Want to help develop this website? Contribute on [GitHub](https://github.com/THR
 # Contact
 Email Chris McComb by clicking [here](mailto:mccomb@psu.edu).
 
-<script src="jquery-3.4.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script>
     function clean_non_ascii(stringystring) {
         return stringystring.replace("’", "'").replace("”", '"').replace("“", '"');
