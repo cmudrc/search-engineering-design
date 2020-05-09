@@ -31,6 +31,7 @@ Did you something go wrong when you tried to use this search engine? Let us know
         <button id="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>
+<br/>
 
 # Recommend a journal
 Is there a journal that you'd like to see in this search engine? Recommend it here!
@@ -46,17 +47,18 @@ Is there a journal that you'd like to see in this search engine? Recommend it he
 
         <div class="form-group">
             <label for="year">Where can we find this journal?</label>
-            <input class="form-control" id="report" placeholder="Something spooky">
+            <input class="form-control" id="report" placeholder="https://thred.group/search-engineering-design/contribute/">
         </div>
 
         <div class="form-group">
             <label for="year">Why do you think it should be added?</label>
-            <input class="form-control" id="report" placeholder="Something spooky">
+            <input class="form-control" id="report" placeholder="It is awesome!">
         </div>
 
         <button id="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>
+<br/>
 
 # Contributing
 Want to help develop this website? Contribute on [GitHub](https://github.com/THREDgroup/search-engineering-design).
