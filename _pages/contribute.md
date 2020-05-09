@@ -85,12 +85,13 @@ Email Chris McComb by clicking [here](mailto:mccomb@psu.edu).
         // Get the details
         let email = clean_non_ascii($("#email").val());
         let report = clean_non_ascii($("#report").val());
+        let repro = clean_non_ascii($("#repro").val());
 
         $.ajax({
                 url: 'https://api.github.com/repos/thredgroup/search-engineering-design/issues',
                 headers: {'Authorization': 'token ' + token},
                 type: "POST",
-                data: '{"title": "' + report + '", "body": "Recommended by ' + email +'"}',
+                data: '{"title": "' + report + '", "body": "' + repro + '. Recommended by ' + email +'"}',
                 success: function (results) {
                     alert("This bug has been reported!");
                 },
