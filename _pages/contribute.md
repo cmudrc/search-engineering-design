@@ -12,10 +12,6 @@ excerpt: ""
 
 ---
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
-
 # Report a bug
 Did you something go wrong when you tried to use this search engine? Let us know here!
 
@@ -39,20 +35,35 @@ Did you something go wrong when you tried to use this search engine? Let us know
 # Recommend a journal
 Is there a journal that you'd like to see in this search engine? Recommend it here!
 
+
+<div class="container mt-5 mb-5">
+    <form>
+        <div class="form-group">
+            <label for="title">What is your email address?</label>
+            <input class="form-control" id="email"
+                   placeholder="asdf@asdf.org">
+        </div>
+
+        <div class="form-group">
+            <label for="year">Where can we find this journal?</label>
+            <input class="form-control" id="report" placeholder="Something spooky">
+        </div>
+
+        <div class="form-group">
+            <label for="year">Why do you think it should be added?</label>
+            <input class="form-control" id="report" placeholder="Something spooky">
+        </div>
+
+        <button id="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
 # Contributing
 Want to help develop this website? Contribute on [GitHub](https://github.com/THREDgroup/search-engineering-design).
 
 # Contact
 Email Chris McComb by clicking [here](mailto:mccomb@psu.edu).
 
-<script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
 <script>
     function commit_to_github(event) {
         event.preventDefault();
